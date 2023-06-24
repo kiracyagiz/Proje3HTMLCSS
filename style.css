@@ -1,0 +1,240 @@
+body {
+    background-color: #EEEEEE;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+.container {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.card{
+    background-color: white;
+    width: 600px;
+    margin: 20px 20px;
+    border-radius: 10px;
+
+}
+
+.card-top{
+    margin: 20px 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.card-top p {
+    margin-top: 25px;
+    color: #ABB6BA;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-mid img {
+    width: 84px;
+    height: 84px;
+}
+
+.card-mid {
+    margin: 20px 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#card-mid-2{
+    border-radius: 10px;
+}
+
+.add-button{
+    border: 2px solid #ABB6BA;
+    width: 84px;
+    height: 84px;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.add-button span {
+    position: absolute;
+    background-color: #ABB6BA;
+  }
+  
+  .add-button .horizontal {
+    width: 30px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .add-button .vertical {
+    width: 2px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.card-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+  }
+  
+  .left-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+  }
+  .left-content p {
+    color: #ABB6BA;
+    font-weight: 500;
+  }
+  
+  .right-content {
+    margin-left: auto;
+  }
+
+  .right-content button{
+    background-color: #1666B3;
+    color: white;
+
+    padding: 13px 30px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+  .post-card{
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin: 20px 20px;
+
+  }
+
+  .postCard-top
+  {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .postCard-info
+  {
+    display: flex;
+    gap: 12px;
+    color: black;
+  }
+
+
+  .postCard-date
+  {
+    color: #ABB6BA;
+    font-size: 10px;
+
+  }
+
+  .postCard-comment
+  {
+    margin: 10px 20px;
+    color: #383838;
+  }
+
+  .postCard-image img
+  {
+    width: 600px;
+  }
+
+  .galery-button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 5px;
+    background-color: white;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    
+  }
+
+
+  .last-card{
+    
+    width: 600px;
+    background-color: white;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin: 20px 20px;
+    margin-top: 50px;
+
+  }
+
+  .lastCard-top
+  {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .lastCard-info
+  {
+    display: flex;
+    gap: 12px;
+    color: black;
+  }
+
+
+  .lastCard-date
+  {
+    color: #ABB6BA;
+    font-size: 10px;
+
+  }
+
+  .lastCard-comment
+  {
+    margin: 15px 20px;
+    color: #383838;
+    font-weight: bold;
+  }
+
+  .features
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .share
+  {
+    display: flex;
+    gap: 5px;
+  }
+
+  .comments {
+    display: flex;
+    gap: 5px;
+
+  }
+
+  .saved{
+    display: flex;
+    gap: 5px;
+
+  }
+
+  .like
+  {
+    display: flex;
+    gap: 5px;
+
+  }
+
+
